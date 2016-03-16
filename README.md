@@ -2,7 +2,7 @@
 
 The goal in this competition is to take an image of a handwritten single digit, and determine what that digit is.  As the competition progresses, we will release tutorials which explain different machine learning algorithms and help you to get started.
 
-![imag1](pics/img1.png)*Some data samples*
+{:.center}![imag1](pics/img1.png) *Some data samples*
 
 The data files train.csv and test.csv contain gray-scale images of hand-drawn digits, from zero through nine.
 
@@ -40,3 +40,6 @@ nn = NeuralNetMLP(n_output=10,
                   shuffle=False,
                   random_state=1)
 ```
+.center {
+  text-align: center;
+}
