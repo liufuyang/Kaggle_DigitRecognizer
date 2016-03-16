@@ -31,8 +31,8 @@ Reached by local NN implementation.
 ```
 nn = NeuralNetMLP(n_output=10,
                   n_features=X_train.shape[1],
-                  n_hidden=50,
-                  l2=0.3,
+                  n_hidden=100,
+                  l2=0.5,
                   l1=0.1,
                   epochs=700,
                   eta=0.001,
